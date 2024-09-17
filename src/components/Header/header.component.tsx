@@ -8,13 +8,13 @@ import { BsCart } from 'react-icons/bs'
 
 export const Header = () => {
   return (
-    <HeaderContainer className='header-container'>
-      <HeaderTitle className='header-title'>CLUB CLOTHING</HeaderTitle>
-      <HeaderItems className='header-items'>
-        <HeaderItem className='header-item'>Explorar</HeaderItem>
-        <HeaderItem className='header-item'>Login</HeaderItem>
-        <HeaderItem className='header-item'>Criar Conta</HeaderItem>
-        <HeaderItem className='header-item'>
+    <HeaderContainer>
+      <HeaderTitle>CLUB CLOTHING</HeaderTitle>
+      <HeaderItems>
+        <HeaderItem>Explorar</HeaderItem>
+        <HeaderItem>Login</HeaderItem>
+        <HeaderItem>Criar Conta</HeaderItem>
+        <HeaderItem>
           <BsCart size={20} />
           <p style={{ marginLeft: 5 }}>5</p>
         </HeaderItem>
